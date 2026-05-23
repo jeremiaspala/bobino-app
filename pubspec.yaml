@@ -1,0 +1,51 @@
+name: bobino_app
+description: App para evaluación de bovinos - ICC y Peso con IA
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Database
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+
+  # Camera & Images
+  image_picker: ^1.0.7
+  image: ^4.1.7
+
+  # ML / YOLO - TFLite detection (yolov8n.tflite)
+  tflite_flutter: ^0.10.4
+
+  # State management
+  provider: ^6.1.2
+
+  # UI
+  fl_chart: ^0.64.0
+  cupertino_icons: ^1.0.6
+
+  # Utils
+  uuid: ^4.3.3
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/yolov8n.tflite
+    - assets/models/yolov8n_seg.onnx
+    - assets/models/yolo11n.onnx
+    - assets/models/yolov8n_pose.onnx
+    - assets/models/README.md
+    - assets/images/icc/
