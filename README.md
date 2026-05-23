@@ -1,14 +1,15 @@
-# Bobino App 🐄
+# Bobino App
+(me maté con el nombre)
 
 **Evaluación offline de bovinos con IA — ICC y peso sin internet**
 
-> Desarrollado por [Jeremías Palazzesi](https://www.nerdadas.com) · Código abierto (MIT)
+> [Jeremías Palazzesi](https://www.nerdadas.com) · Código abierto (MIT)
 
 ---
 
 ## Por qué existe esto
 
-Soy programador y tengo campo. En la Argentina la ganadería es central, y siempre me pregunté por qué los productores siguen evaluando el estado corporal de sus animales completamente a ojo, cuando la misma tecnología que usamos para detectar objetos en fotos podría hacer ese trabajo de forma objetiva, repetible y sin necesidad de internet ni equipamiento especial.
+Soy programador y no tengo campo pero en la Argentina la ganadería es central. Hace poco me preguntaron porque los productores siguen evaluando el estado corporal de sus animales completamente a ojo, cuando la misma tecnología que usamos para detectar objetos en fotos podría hacer ese trabajo de forma objetiva, repetible y sin necesidad de internet ni equipamiento especial.
 
 Bobino App nació de esa pregunta. No es un proyecto académico ni un paper: es una herramienta práctica para que un productor, parado al lado del corral con el teléfono en la mano, pueda obtener el **ICC (Índice de Condición Corporal)** y el **peso estimado** de sus animales sin comprar nada especial.
 
@@ -257,7 +258,7 @@ Pull requests bienvenidos. Las áreas que más impacto tendrían:
 ## Autor
 
 **Jeremías Palazzesi**
-Programador, productor y curioso.
+Nerdo avanzado
 [https://www.nerdadas.com](https://www.nerdadas.com)
 
 Esta app se construyó como un ejercicio de qué tan lejos se puede llegar con IA disponible públicamente aplicada a ganadería real, sin infraestructura de granja controlada ni modelos propietarios. El resultado es imperfecto pero funcional, y esa es exactamente la idea.
