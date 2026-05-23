@@ -65,21 +65,18 @@ class AboutScreen extends StatelessWidget {
             icon: Icons.lightbulb_outline,
             title: 'Por qué existe esta app',
             child: const Text(
-              'Soy Jeremías Palazzesi, un programador con muchos años de '
-              'experiencia en tecnología que también tiene campo. En la '
-              'Argentina la actividad ganadera es central, y siempre me '
-              'preguntaba por qué los productores seguían evaluando a ojo '
-              'el estado corporal de sus animales, cuando la IA que usamos '
-              'para detectar objetos en fotos podría hacer ese trabajo de '
-              'forma objetiva, repetible y sin necesidad de internet.\n\n'
-              'Bobino App nació de esa pregunta. No es un proyecto '
-              'académico: es una herramienta práctica para que un '
+              'Soy Jeremías Palazzesi, programador. No tengo campo ni '
+              'ganado, pero en la Argentina la ganadería es central y hace '
+              'poco me preguntaron si era posible evaluar el estado '
+              'corporal de un bovino desde el teléfono, sin internet y sin '
+              'equipamiento especial.\n\n'
+              'La respuesta es sí. Bobino App es la demostración. No es un '
+              'proyecto académico: es una herramienta práctica para que un '
               'productor, parado al lado del corral con el teléfono en la '
               'mano, pueda obtener el ICC y el peso estimado de sus '
-              'animales sin comprar equipamiento especial ni tener '
-              'conexión.\n\n'
-              'Todo lo que necesitás es el teléfono, una foto, y si querés '
-              'peso preciso, una cinta métrica.',
+              'animales sin comprar nada.\n\n'
+              'Todo lo que necesitás es el teléfono. Si querés el peso '
+              'con buena precisión, una cinta métrica.',
               style: TextStyle(
                   fontSize: 13.5,
                   color: AppColors.textSecondary,
@@ -251,7 +248,7 @@ class AboutScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Text(
-                  'Jeremías Palazzesi',
+                  'Jeremías Palazzesi · jeremiaspalazzesi@gmail.com',
                   style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
@@ -263,7 +260,7 @@ class AboutScreen extends StatelessWidget {
                     style: const TextStyle(
                         fontSize: 13, color: AppColors.textSecondary),
                     children: [
-                      const TextSpan(text: 'Programador, productor y curioso.\n'),
+                      const TextSpan(text: 'Programador. La app nació de una pregunta de un cliente.\n'),
                       TextSpan(
                         text: 'https://www.nerdadas.com',
                         style: const TextStyle(
